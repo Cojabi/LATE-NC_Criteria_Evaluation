@@ -1,0 +1,7 @@
+# requirements.txt
+matplotlib
+pandas
+optuna
+scikit-learn
+jupyterlab
+seaborn

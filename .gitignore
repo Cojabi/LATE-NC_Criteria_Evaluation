@@ -1,0 +1,72 @@
+# own stuff
+data/*
+PVC_*.png
+variables.xlsx
+R_sent/*
+venv
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+.conda
+env/
+build/
+dist/
+eggs/
+*.egg-info/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info
+.installed.cfg
+*.egg
+
+# PyCharm files
+.idea/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Pytest
+pytest_cache/
+
+# Coverage
+.coverage
+htmlcov/
+
+# Logs
+logs/
+*.log
+
+# Data
+*.csv
+*.h5
+*.npy
+*.npz
+
+# Model checkpoints
+checkpoints/
+*.ckpt
+*.hdf5
+*.h5
+*.pth
+
+# Ignore macOS metadata files
+.DS_Store
+
+# Ignore system files that may be created by editors or operating systems
+Thumbs.db
+desktop.ini
+
+# Configs
+.vscode

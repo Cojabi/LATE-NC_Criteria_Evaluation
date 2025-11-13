@@ -98,3 +98,4 @@ class Theory_driven_approach_inner_CV():
 
         return {name:trial._suggest(name, distribution) 
                 for name, distribution in self.param_space.items()}
+    

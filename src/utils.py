@@ -16,3 +16,4 @@ def store_scores(trial:Trial, scores:dict) -> None:
             # creates the 'mean_val_score' that will be optimized.
             trial.set_user_attr(f"mean_{name}", np.nanmean(array))
             trial.set_user_attr(f"std_{name}", np.nanstd(array))
+            

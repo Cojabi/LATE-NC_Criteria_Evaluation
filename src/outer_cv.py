@@ -79,6 +79,3 @@ def main(n_cv_folds=5, n_trials=100, n_jobs=4):
     print(f'Best cut-offs std:\ncog_ep_cutoff: {np.std(scores["cog_ep_cutoff"])}, cog_ps_cutoff: {np.std(scores["cog_ps_cutoff"])}, MRI_ratio_cutoff:{np.std(scores["mri_ratio_cutoff"])}')
 
 
-
-
-

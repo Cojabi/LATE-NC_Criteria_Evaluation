@@ -38,4 +38,3 @@ class Theory_Based_Approach():
         predictions[LATE_cases_ids] = 1
 
         return list(predictions)
-

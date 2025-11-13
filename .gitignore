@@ -1,9 +1,10 @@
 # own stuff
-data/*
+data/
 PVC_*.png
 variables.xlsx
 R_sent/*
 venv
+*.db
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
